@@ -48,7 +48,7 @@ This project demonstrates real-time object detection using YOLO (You Only Look O
 4. Download YOLOv3 weights, configuration file, and COCO class names:
 
     - [yolov3.cfg](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
-    - [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights)
+    - [yolov3.weights]([https://pjreddie.com/media/files/yolov3.weights](https://github.com/patrick013/Object-Detection---Yolov3/blob/master/model/yolov3.weights))
     - [coco.names](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
 
     Place these files in your project directory.
