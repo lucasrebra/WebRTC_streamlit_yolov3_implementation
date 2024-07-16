@@ -63,12 +63,19 @@ This project demonstrates real-time object detection using YOLO (You Only Look O
 
 2. Open your web browser and navigate to `http://localhost:8501` to see the application in action.
 
+
 ## Files
 
 - `app.py`: Main application file running the Streamlit server and handling the WebRTC video stream and YOLO object detection.
 - `yolov3.cfg`: YOLOv3 configuration file.
 - `yolov3.weights`: YOLOv3 pre-trained weights.
 - `coco.names`: List of class names used by YOLO.
+- `requirements.txt`: List of dependencies.
+- `README.md`: Project description and instructions.
+- `setup.py`: Packaging configuration.
+- `tests/`: Directory containing all test files.
+- 
+## Tests
 
 ## Usage
 
@@ -86,5 +93,8 @@ This project demonstrates real-time object detection using YOLO (You Only Look O
 Contributions are welcome! Please open an issue or submit a pull request for any bugs, feature requests, or improvements.
 
 ## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
