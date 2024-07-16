@@ -74,8 +74,16 @@ This project demonstrates real-time object detection using YOLO (You Only Look O
 - `README.md`: Project description and instructions.
 - `setup.py`: Packaging configuration.
 - `tests/`: Directory containing all test files.
-- 
-## Tests
+
+### Unit Tests
+
+Unit tests are located in the `tests/test_yolo.py` file. These tests include:
+
+- **test_yolo_model_loading**: Verifies that the YOLO model loads correctly.
+- **test_yolo_detection**: Checks that the YOLO model performs object detection on a dummy image.
+- **test_yolo_classes**: Ensures that the class names are loaded from the `coco.names` file.
+
+For more details, see [Unit Tests Documentation](docs/tests/test_yolo.md).
 
 ## Usage
 
